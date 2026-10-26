@@ -141,6 +141,8 @@ pnpm exec web-push generate-vapid-keys --json
 
 ## 4. 部署
 
+不想花月费的话，[零成本部署指南](docs/deploy-free.md) 走的是 Vercel + Supabase + Cloudflare 的免费额度组合，包含域名解析、分钟级提醒和国内访问调优。
+
 ### Vercel
 
 1. Fork / 导入自己的 GitHub 仓库，创建自己的 Vercel 项目。
