@@ -8,8 +8,8 @@ import { type VercelConfig } from "@vercel/config/v1";
  */
 export const config: VercelConfig = {
   framework: "nextjs",
-  // 由部署者选择靠近自己数据库的区域。
-  regions: [process.env.VERCEL_FUNCTION_REGION?.trim() || "sin1"],
+  // 与当前 Supabase 数据库同在新加坡；使用固定值确保部署前的配置校验可用。
+  regions: ["sin1"],
 
   crons: [
     {
